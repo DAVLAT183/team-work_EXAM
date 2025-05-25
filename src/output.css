@@ -558,6 +558,7 @@ video {
   position: relative;
 }
 
+
 .m-auto {
   margin: auto;
 }
@@ -592,6 +593,9 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+
+.bottom-\[70px\] {
+  bottom: 70px;
 }
 
 .flex {
@@ -676,6 +680,41 @@ video {
 
 .max-w-\[1400px\] {
   max-width: 1400px;
+
+.h-\[175px\] {
+  height: 175px;
+}
+
+.h-\[44px\] {
+  height: 44px;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
+.w-\[246px\] {
+  width: 246px;
+}
+
+.w-\[284px\] {
+  width: 284px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[417px\] {
+  width: 417px;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -684,11 +723,16 @@ video {
 
 .justify-between {
   justify-content: space-between;
+=======
+.justify-center {
+  justify-content: center;
+
 }
 
 .justify-around {
   justify-content: space-around;
 }
+
 
 .gap-10 {
   gap: 2.5rem;
@@ -736,6 +780,52 @@ video {
 
 .border {
   border-width: 1px;
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[220px\] {
+  gap: 220px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
+}
+
+.gap-\[600px\] {
+  gap: 600px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
+}
+
+.gap-\[740px\] {
+  gap: 740px;
+}
+
+.gap-\[90px\] {
+  gap: 90px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
 }
 
 .bg-\[\#00578A\] {
@@ -757,6 +847,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(240 246 249 / var(--tw-bg-opacity, 1));
 }
+
 
 .bg-\[\#FCFCFC\] {
   --tw-bg-opacity: 1;
@@ -793,6 +884,79 @@ video {
 
 .p-\[8px_20px\] {
   padding: 8px 20px;
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.px-\[35px\] {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
+}
+
+.pl-\[100px\] {
+  padding-left: 100px;
+}
+
+.pl-\[150px\] {
+  padding-left: 150px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-\[14px\] {
@@ -811,6 +975,8 @@ video {
   font-size: 21px;
 }
 
+
+
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -821,6 +987,12 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .text-\[48px\] {
@@ -829,6 +1001,8 @@ video {
 
 .font-\[500\] {
   font-weight: 500;
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .text-\[\#00578A\] {
@@ -849,6 +1023,19 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+.text-\[\#141414\] {
+  --tw-text-opacity: 1;
+  color: rgb(20 20 20 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#4F4F4F\] {
+  --tw-text-opacity: 1;
+  color: rgb(79 79 79 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#7F8D94\] {
+  --tw-text-opacity: 1;
+  color: rgb(127 141 148 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -1031,6 +1218,24 @@ video {
 
   .md\:gap-10 {
     gap: 2.5rem;
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:gap-0 {
@@ -1161,5 +1366,27 @@ video {
 
   .md\:text-\[20\] {
     color: 20;
+  .md\:gap-\[20px\] {
+    gap: 20px;
+  }
+
+  .md\:pl-\[40px\] {
+    padding-left: 40px;
+  }
+
+  .md\:pr-\[60px\] {
+    padding-right: 60px;
+  }
+
+  .md\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .md\:text-\[34px\] {
+    font-size: 34px;
+  }
+
+  .md\:text-\[40\.36px\] {
+    font-size: 40.36px;
   }
 }
